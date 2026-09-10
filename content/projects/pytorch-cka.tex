@@ -1,0 +1,8 @@
+% Editable resume content; LaTeX is the source of truth.
+\resumeProjectLine{\href{https://github.com/ryusudol/Centered-Kernel-Alignment}{\resumeEmphasis{PyTorch-CKA}}}{\textit{Python, PyTorch }}
+\begin{itemize}
+  \item \resumeEmphasis{AI Explainability}: Built an open-source Python library that compares internal representations across layers of \resumeEmphasis{CNNs} and \resumeEmphasis{LLMs}, addressing slow computation and memory buildup in existing CKA tools.
+  \item \resumeEmphasis{Performance Optimization}: Reduced HSIC trace complexity from \resumeEmphasis{O(B\textsuperscript{3}) }to\resumeEmphasis{ O(B\textsuperscript{2})} per layer pair (B: batch size) by replacing full matrix multiplication with Frobenius inner products, achieving an overall \resumeEmphasis{5.7\ensuremath{\times}} speedup over an existing library on H100.
+  \item \resumeEmphasis{Memory Optimization}: Implemented automatic activation cleanup and forward-hook removal after CKA computation, reducing retained GPU memory by \resumeEmphasis{95.7\%} compared to an existing library (ResNet-18, batch size 1,000).
+  \item \resumeEmphasis{Deployment \& Maintenance}: Published on PyPI (\resumeEmphasis{\textasciitilde{}400 monthly downloads}) and automated CI testing across Python 3.10\textendash{}3.14.
+\end{itemize}

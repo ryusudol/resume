@@ -1,0 +1,9 @@
+examples/
+career-ops/
+history/
+.build/
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.xdv

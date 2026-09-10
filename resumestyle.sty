@@ -1,0 +1,92 @@
+% Shared layout for SWE and future MLE resumes.
+% Design reference: https://github.com/yarikama/resume_latex
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{resumestyle}[2026/09/10 Shared resume typography and layout]
+
+\RequirePackage{iftex}
+\ifXeTeX\else
+  \PackageError{resumestyle}{XeLaTeX or Tectonic is required}
+    {Compile with xelatex, latexmk -xelatex, or tectonic.}
+\fi
+% Vertical page dimensions, with slightly wider 0.4in side margins.
+\RequirePackage[empty]{fullpage}
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.15in}
+\setlength{\footskip}{7pt}
+\RequirePackage{fontspec}
+\IfFontExistsTF{Calibri}{%
+  \setmainfont{Calibri}[Ligatures=TeX]%
+}{%
+  % Use the local Word installation without copying proprietary font files.
+  \providecommand{\resumeCalibriPath}{/Applications/Microsoft Word.app/Contents/Resources/DFonts/}
+  \setmainfont{Calibri}[
+    Path=\resumeCalibriPath,
+    UprightFont=Calibri.ttf,
+    BoldFont=Calibrib.ttf,
+    ItalicFont=Calibrii.ttf,
+    BoldItalicFont=Calibriz.ttf,
+    Ligatures=TeX]
+}
+\RequirePackage{microtype}
+\RequirePackage{enumitem}
+\RequirePackage{titlesec}
+\RequirePackage{needspace}
+\RequirePackage{xcolor}
+\definecolor{resumeLink}{HTML}{0070E0}
+\RequirePackage[colorlinks=true,allcolors=resumeLink]{hyperref}
+
+% Use the font's Unicode mapping. Tectonic 0.17's generated ActualText
+% corrupts extracted text, so do not enable XeTeXgenerateactualtext here.
+\urlstyle{same}
+\pagestyle{empty}
+\raggedright
+\raggedbottom
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\hyphenpenalty=10000
+
+% All spacing controls live here; content modules contain no manual vspace.
+% Slightly more breathing room than the compact reference style.
+\newcommand{\resumeSectionBefore}{4pt plus 1pt minus 1pt}
+\newcommand{\resumeSectionAfter}{5pt}
+\newcommand{\resumeEntrySep}{3pt}
+\newcommand{\resumeHeadSep}{2pt}
+\newcommand{\resumeBulletSep}{1pt}
+\newcommand{\resumeContactGap}{4pt}
+\newcommand{\resumeHeaderGap}{2pt}
+
+\AtBeginDocument{\fontsize{10}{12}\selectfont}
+% Calibri Regular body text with Bold headings and inline emphasis.
+\newcommand{\resumeWeight}{\bfseries}
+\newcommand{\resumeEmphasis}[1]{{\resumeWeight #1}}
+\titleformat{\section}{\fontsize{12}{14}\selectfont\resumeWeight}{}{0pt}
+  {\MakeUppercase}[\titlerule]
+\titlespacing*{\section}{0pt}{\resumeSectionBefore}{\resumeSectionAfter}
+\setlist[itemize]{leftmargin=12pt,label=\textbullet,
+  itemsep=\resumeBulletSep,topsep=\resumeHeadSep,parsep=0pt,partopsep=0pt}
+
+\newcommand{\resumeHeader}[2]{%
+  {\centering
+    {\fontsize{24}{26}\selectfont\resumeWeight #1\par}%
+    \vspace{\resumeContactGap}%
+    #2\par
+  }%
+  \vspace{\resumeHeaderGap}%
+}
+
+% Resume entry rows preserve reading order.
+\newcommand{\resumeRow}[2]{%
+  \par\Needspace{2\baselineskip}#1\hfill\mbox{#2}\par
+}
+\newcommand{\resumeTitleRow}[2]{%
+  \resumeRow{{\fontsize{11}{13}\selectfont #1}}{#2}%
+}
+\newcommand{\resumeProjectLine}[2]{%
+  \par\addvspace{\resumeEntrySep}\Needspace{12\baselineskip}%
+  {\fontsize{11}{13}\selectfont #1}\enspace\textbar\enspace #2\par\nopagebreak
+}
+\newcommand{\resumeDraftGap}{\par\addvspace{\resumeEntrySep}}
+\endinput
