@@ -1,0 +1,16 @@
+{
+  "name": "muc-frontend-benchmark",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare:snapshots": "python3 prepare.py",
+    "build": "node build.mjs",
+    "benchmark": "node run.mjs",
+    "summarize": "node summarize.mjs",
+    "test": "node --test metrics.test.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "1.62.1",
+    "web-vitals": "5.1.0"
+  }
+}

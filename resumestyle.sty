@@ -85,7 +85,9 @@
   \resumeRow{{\fontsize{11}{13}\selectfont #1}}{#2}%
 }
 \newcommand{\resumeProjectLine}[2]{%
-  \par\addvspace{\resumeEntrySep}\Needspace{12\baselineskip}%
+  % Section headings already supply the gap before their first entry.
+  \par\if@nobreak\else\addvspace{\resumeEntrySep}\fi
+  \Needspace{12\baselineskip}%
   {\fontsize{11}{13}\selectfont #1}\enspace\textbar\enspace #2\par\nopagebreak
 }
 \newcommand{\resumeDraftGap}{\par\addvspace{\resumeEntrySep}}

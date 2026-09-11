@@ -3,10 +3,9 @@ TECTONIC ?= tectonic
 RESUMES := Suhyeon_Yu_SWE_Resume
 PDFS := $(addsuffix .pdf,$(RESUMES))
 
-.PHONY: all swe check clean FORCE
-all: check
+.PHONY: build swe clean FORCE
+build: $(PDFS)
 swe: Suhyeon_Yu_SWE_Resume.pdf
-check: $(PDFS)
 
 # Always invoke the compiler: edits to any shared module must be picked up.
 # Copy the PDF only after compilation succeeds.

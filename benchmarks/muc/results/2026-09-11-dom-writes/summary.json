@@ -1,0 +1,1175 @@
+{
+  "environment": {
+    "time": "2026-09-11T21:16:30.669Z",
+    "browser": "151.0.7922.34",
+    "node": "v24.18.0",
+    "os": "25.6.0",
+    "platform": "darwin",
+    "architecture": "arm64",
+    "cpus": [
+      "Apple M1",
+      "Apple M1",
+      "Apple M1",
+      "Apple M1",
+      "Apple M1",
+      "Apple M1",
+      "Apple M1",
+      "Apple M1"
+    ],
+    "workspace": "/Users/suhyeon/Desktop/work/Resume/benchmarks/muc/results/2026-09-11/frozen-runtime",
+    "runs": 5,
+    "hoversPerSession": 20,
+    "dragStepsPerSession": 20,
+    "settleMs": 200
+  },
+  "groups": {
+    "baseline": {
+      "sessions": 5,
+      "errors": 0,
+      "domSize": {
+        "elements": 3783,
+        "svgMarks": 1341
+      },
+      "phases": {
+        "embedding-idle": {
+          "observations": 5,
+          "attributeWrites": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "styleWrites": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "childListRecords": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "nodesAdded": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "nodesRemoved": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "reactCommits": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "embedding-hover-enter": {
+          "observations": 100,
+          "attributeWrites": {
+            "n": 100,
+            "p50": 5,
+            "p75": 5,
+            "p95": 5,
+            "min": 5,
+            "max": 5
+          },
+          "styleWrites": {
+            "n": 100,
+            "p50": 5,
+            "p75": 5,
+            "p95": 5,
+            "min": 5,
+            "max": 5
+          },
+          "childListRecords": {
+            "n": 100,
+            "p50": 5,
+            "p75": 5,
+            "p95": 5,
+            "min": 5,
+            "max": 5
+          },
+          "nodesAdded": {
+            "n": 100,
+            "p50": 3,
+            "p75": 3,
+            "p95": 3,
+            "min": 3,
+            "max": 3
+          },
+          "nodesRemoved": {
+            "n": 100,
+            "p50": 2,
+            "p75": 2,
+            "p95": 2,
+            "min": 2,
+            "max": 2
+          },
+          "reactCommits": {
+            "n": 100,
+            "p50": 1,
+            "p75": 1,
+            "p95": 1,
+            "min": 1,
+            "max": 1
+          }
+        },
+        "embedding-hover-leave": {
+          "observations": 100,
+          "attributeWrites": {
+            "n": 100,
+            "p50": 4,
+            "p75": 4,
+            "p95": 4,
+            "min": 4,
+            "max": 4
+          },
+          "styleWrites": {
+            "n": 100,
+            "p50": 4,
+            "p75": 4,
+            "p95": 4,
+            "min": 4,
+            "max": 4
+          },
+          "childListRecords": {
+            "n": 100,
+            "p50": 1,
+            "p75": 1,
+            "p95": 1,
+            "min": 1,
+            "max": 1
+          },
+          "nodesAdded": {
+            "n": 100,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "nodesRemoved": {
+            "n": 100,
+            "p50": 1,
+            "p75": 1,
+            "p95": 1,
+            "min": 1,
+            "max": 1
+          },
+          "reactCommits": {
+            "n": 100,
+            "p50": 1,
+            "p75": 1,
+            "p95": 1,
+            "min": 1,
+            "max": 1
+          }
+        },
+        "embedding-highlight-Target to Forget": {
+          "observations": 5,
+          "attributeWrites": {
+            "n": 5,
+            "p50": 22421,
+            "p75": 22421,
+            "p95": 22421,
+            "min": 22421,
+            "max": 22421
+          },
+          "styleWrites": {
+            "n": 5,
+            "p50": 7208,
+            "p75": 7208,
+            "p95": 7208,
+            "min": 7208,
+            "max": 7208
+          },
+          "childListRecords": {
+            "n": 5,
+            "p50": 3,
+            "p75": 3,
+            "p95": 3,
+            "min": 3,
+            "max": 3
+          },
+          "nodesAdded": {
+            "n": 5,
+            "p50": 2,
+            "p75": 2,
+            "p95": 2,
+            "min": 2,
+            "max": 2
+          },
+          "nodesRemoved": {
+            "n": 5,
+            "p50": 1,
+            "p75": 1,
+            "p95": 1,
+            "min": 1,
+            "max": 1
+          },
+          "reactCommits": {
+            "n": 5,
+            "p50": 10,
+            "p75": 10,
+            "p95": 10,
+            "min": 10,
+            "max": 10
+          }
+        },
+        "embedding-highlight-All": {
+          "observations": 5,
+          "attributeWrites": {
+            "n": 5,
+            "p50": 22422,
+            "p75": 22422,
+            "p95": 22422,
+            "min": 22422,
+            "max": 22422
+          },
+          "styleWrites": {
+            "n": 5,
+            "p50": 7208,
+            "p75": 7208,
+            "p95": 7208,
+            "min": 7208,
+            "max": 7208
+          },
+          "childListRecords": {
+            "n": 5,
+            "p50": 3,
+            "p75": 3,
+            "p95": 3,
+            "min": 3,
+            "max": 3
+          },
+          "nodesAdded": {
+            "n": 5,
+            "p50": 2,
+            "p75": 2,
+            "p95": 2,
+            "min": 2,
+            "max": 2
+          },
+          "nodesRemoved": {
+            "n": 5,
+            "p50": 1,
+            "p75": 1,
+            "p95": 1,
+            "min": 1,
+            "max": 1
+          },
+          "reactCommits": {
+            "n": 5,
+            "p50": 10,
+            "p75": 10,
+            "p95": 10,
+            "min": 10,
+            "max": 10
+          }
+        },
+        "model-switch-B-d641": {
+          "observations": 5,
+          "attributeWrites": {
+            "n": 5,
+            "p50": 34662,
+            "p75": 34662,
+            "p95": 34662,
+            "min": 34662,
+            "max": 34662
+          },
+          "styleWrites": {
+            "n": 5,
+            "p50": 366,
+            "p75": 366,
+            "p95": 366,
+            "min": 366,
+            "max": 366
+          },
+          "childListRecords": {
+            "n": 5,
+            "p50": 1069,
+            "p75": 1069,
+            "p95": 1069,
+            "min": 1069,
+            "max": 1069
+          },
+          "nodesAdded": {
+            "n": 5,
+            "p50": 1016,
+            "p75": 1016,
+            "p95": 1016,
+            "min": 1016,
+            "max": 1016
+          },
+          "nodesRemoved": {
+            "n": 5,
+            "p50": 57,
+            "p75": 57,
+            "p95": 57,
+            "min": 57,
+            "max": 57
+          },
+          "reactCommits": {
+            "n": 5,
+            "p50": 42,
+            "p75": 42,
+            "p95": 42,
+            "min": 42,
+            "max": 42
+          }
+        },
+        "model-switch-A-a000": {
+          "observations": 5,
+          "attributeWrites": {
+            "n": 5,
+            "p50": 34843,
+            "p75": 34843,
+            "p95": 34843,
+            "min": 34843,
+            "max": 34843
+          },
+          "styleWrites": {
+            "n": 5,
+            "p50": 480,
+            "p75": 480,
+            "p95": 480,
+            "min": 480,
+            "max": 480
+          },
+          "childListRecords": {
+            "n": 5,
+            "p50": 1058,
+            "p75": 1058,
+            "p95": 1058,
+            "min": 1058,
+            "max": 1058
+          },
+          "nodesAdded": {
+            "n": 5,
+            "p50": 1006,
+            "p75": 1006,
+            "p95": 1006,
+            "min": 1006,
+            "max": 1006
+          },
+          "nodesRemoved": {
+            "n": 5,
+            "p50": 56,
+            "p75": 56,
+            "p95": 56,
+            "min": 56,
+            "max": 56
+          },
+          "reactCommits": {
+            "n": 5,
+            "p50": 40,
+            "p75": 40,
+            "p95": 40,
+            "min": 40,
+            "max": 40
+          }
+        },
+        "attack-idle": {
+          "observations": 5,
+          "attributeWrites": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "styleWrites": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "childListRecords": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "nodesAdded": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "nodesRemoved": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "reactCommits": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "attack-hover-enter": {
+          "observations": 100,
+          "attributeWrites": {
+            "n": 100,
+            "p50": 5773,
+            "p75": 5773,
+            "p95": 5773,
+            "min": 0,
+            "max": 5773
+          },
+          "styleWrites": {
+            "n": 100,
+            "p50": 410,
+            "p75": 410,
+            "p95": 410,
+            "min": 0,
+            "max": 410
+          },
+          "childListRecords": {
+            "n": 100,
+            "p50": 1133,
+            "p75": 1133,
+            "p95": 1133,
+            "min": 0,
+            "max": 1133
+          },
+          "nodesAdded": {
+            "n": 100,
+            "p50": 588,
+            "p75": 588,
+            "p95": 588,
+            "min": 0,
+            "max": 588
+          },
+          "nodesRemoved": {
+            "n": 100,
+            "p50": 545,
+            "p75": 545,
+            "p95": 545,
+            "min": 0,
+            "max": 545
+          },
+          "reactCommits": {
+            "n": 100,
+            "p50": 2,
+            "p75": 2,
+            "p95": 2,
+            "min": 0,
+            "max": 2
+          }
+        },
+        "attack-hover-leave": {
+          "observations": 100,
+          "attributeWrites": {
+            "n": 100,
+            "p50": 5759,
+            "p75": 5759,
+            "p95": 5759,
+            "min": 0,
+            "max": 5759
+          },
+          "styleWrites": {
+            "n": 100,
+            "p50": 408,
+            "p75": 408,
+            "p95": 408,
+            "min": 0,
+            "max": 408
+          },
+          "childListRecords": {
+            "n": 100,
+            "p50": 1127,
+            "p75": 1127,
+            "p95": 1127,
+            "min": 0,
+            "max": 1127
+          },
+          "nodesAdded": {
+            "n": 100,
+            "p50": 582,
+            "p75": 582,
+            "p95": 582,
+            "min": 0,
+            "max": 582
+          },
+          "nodesRemoved": {
+            "n": 100,
+            "p50": 545,
+            "p75": 545,
+            "p95": 545,
+            "min": 0,
+            "max": 545
+          },
+          "reactCommits": {
+            "n": 100,
+            "p50": 2,
+            "p75": 2,
+            "p95": 2,
+            "min": 0,
+            "max": 2
+          }
+        },
+        "attack-threshold-drag-step": {
+          "observations": 100,
+          "attributeWrites": {
+            "n": 100,
+            "p50": 5566,
+            "p75": 5732,
+            "p95": 5771,
+            "min": 2,
+            "max": 5777
+          },
+          "styleWrites": {
+            "n": 100,
+            "p50": 12,
+            "p75": 20,
+            "p95": 22,
+            "min": 0,
+            "max": 24
+          },
+          "childListRecords": {
+            "n": 100,
+            "p50": 1125,
+            "p75": 1127,
+            "p95": 1129,
+            "min": 0,
+            "max": 1131
+          },
+          "nodesAdded": {
+            "n": 100,
+            "p50": 582,
+            "p75": 583,
+            "p95": 584,
+            "min": 0,
+            "max": 585
+          },
+          "nodesRemoved": {
+            "n": 100,
+            "p50": 543,
+            "p75": 544,
+            "p95": 545,
+            "min": 0,
+            "max": 546
+          },
+          "reactCommits": {
+            "n": 100,
+            "p50": 2,
+            "p75": 2,
+            "p95": 2,
+            "min": 0,
+            "max": 2
+          }
+        }
+      }
+    },
+    "current": {
+      "sessions": 5,
+      "errors": 0,
+      "domSize": {
+        "elements": 3789,
+        "svgMarks": 1343
+      },
+      "phases": {
+        "embedding-idle": {
+          "observations": 5,
+          "attributeWrites": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "styleWrites": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "childListRecords": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "nodesAdded": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "nodesRemoved": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "reactCommits": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "embedding-hover-enter": {
+          "observations": 100,
+          "attributeWrites": {
+            "n": 100,
+            "p50": 5,
+            "p75": 5,
+            "p95": 5,
+            "min": 5,
+            "max": 5
+          },
+          "styleWrites": {
+            "n": 100,
+            "p50": 5,
+            "p75": 5,
+            "p95": 5,
+            "min": 5,
+            "max": 5
+          },
+          "childListRecords": {
+            "n": 100,
+            "p50": 5,
+            "p75": 5,
+            "p95": 5,
+            "min": 5,
+            "max": 5
+          },
+          "nodesAdded": {
+            "n": 100,
+            "p50": 3,
+            "p75": 3,
+            "p95": 3,
+            "min": 3,
+            "max": 3
+          },
+          "nodesRemoved": {
+            "n": 100,
+            "p50": 2,
+            "p75": 2,
+            "p95": 2,
+            "min": 2,
+            "max": 2
+          },
+          "reactCommits": {
+            "n": 100,
+            "p50": 1,
+            "p75": 1,
+            "p95": 1,
+            "min": 1,
+            "max": 1
+          }
+        },
+        "embedding-hover-leave": {
+          "observations": 100,
+          "attributeWrites": {
+            "n": 100,
+            "p50": 4,
+            "p75": 4,
+            "p95": 4,
+            "min": 4,
+            "max": 4
+          },
+          "styleWrites": {
+            "n": 100,
+            "p50": 4,
+            "p75": 4,
+            "p95": 4,
+            "min": 4,
+            "max": 4
+          },
+          "childListRecords": {
+            "n": 100,
+            "p50": 1,
+            "p75": 1,
+            "p95": 1,
+            "min": 1,
+            "max": 1
+          },
+          "nodesAdded": {
+            "n": 100,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "nodesRemoved": {
+            "n": 100,
+            "p50": 1,
+            "p75": 1,
+            "p95": 1,
+            "min": 1,
+            "max": 1
+          },
+          "reactCommits": {
+            "n": 100,
+            "p50": 1,
+            "p75": 1,
+            "p95": 1,
+            "min": 1,
+            "max": 1
+          }
+        },
+        "embedding-highlight-Target to Forget": {
+          "observations": 5,
+          "attributeWrites": {
+            "n": 5,
+            "p50": 7221,
+            "p75": 7221,
+            "p95": 7221,
+            "min": 7221,
+            "max": 7221
+          },
+          "styleWrites": {
+            "n": 5,
+            "p50": 7208,
+            "p75": 7208,
+            "p95": 7208,
+            "min": 7208,
+            "max": 7208
+          },
+          "childListRecords": {
+            "n": 5,
+            "p50": 3,
+            "p75": 3,
+            "p95": 3,
+            "min": 3,
+            "max": 3
+          },
+          "nodesAdded": {
+            "n": 5,
+            "p50": 2,
+            "p75": 2,
+            "p95": 2,
+            "min": 2,
+            "max": 2
+          },
+          "nodesRemoved": {
+            "n": 5,
+            "p50": 1,
+            "p75": 1,
+            "p95": 1,
+            "min": 1,
+            "max": 1
+          },
+          "reactCommits": {
+            "n": 5,
+            "p50": 10,
+            "p75": 10,
+            "p95": 10,
+            "min": 10,
+            "max": 10
+          }
+        },
+        "embedding-highlight-All": {
+          "observations": 5,
+          "attributeWrites": {
+            "n": 5,
+            "p50": 7222,
+            "p75": 7222,
+            "p95": 7222,
+            "min": 7222,
+            "max": 7222
+          },
+          "styleWrites": {
+            "n": 5,
+            "p50": 7208,
+            "p75": 7208,
+            "p95": 7208,
+            "min": 7208,
+            "max": 7208
+          },
+          "childListRecords": {
+            "n": 5,
+            "p50": 3,
+            "p75": 3,
+            "p95": 3,
+            "min": 3,
+            "max": 3
+          },
+          "nodesAdded": {
+            "n": 5,
+            "p50": 2,
+            "p75": 2,
+            "p95": 2,
+            "min": 2,
+            "max": 2
+          },
+          "nodesRemoved": {
+            "n": 5,
+            "p50": 1,
+            "p75": 1,
+            "p95": 1,
+            "min": 1,
+            "max": 1
+          },
+          "reactCommits": {
+            "n": 5,
+            "p50": 10,
+            "p75": 10,
+            "p95": 10,
+            "min": 10,
+            "max": 10
+          }
+        },
+        "model-switch-B-d641": {
+          "observations": 5,
+          "attributeWrites": {
+            "n": 5,
+            "p50": 11862,
+            "p75": 11862,
+            "p95": 11900,
+            "min": 11862,
+            "max": 11900
+          },
+          "styleWrites": {
+            "n": 5,
+            "p50": 366,
+            "p75": 366,
+            "p95": 366,
+            "min": 366,
+            "max": 366
+          },
+          "childListRecords": {
+            "n": 5,
+            "p50": 1069,
+            "p75": 1069,
+            "p95": 1069,
+            "min": 1069,
+            "max": 1069
+          },
+          "nodesAdded": {
+            "n": 5,
+            "p50": 1016,
+            "p75": 1016,
+            "p95": 1016,
+            "min": 1016,
+            "max": 1016
+          },
+          "nodesRemoved": {
+            "n": 5,
+            "p50": 57,
+            "p75": 57,
+            "p95": 57,
+            "min": 57,
+            "max": 57
+          },
+          "reactCommits": {
+            "n": 5,
+            "p50": 42,
+            "p75": 42,
+            "p95": 43,
+            "min": 42,
+            "max": 43
+          }
+        },
+        "model-switch-A-a000": {
+          "observations": 5,
+          "attributeWrites": {
+            "n": 5,
+            "p50": 12043,
+            "p75": 12043,
+            "p95": 12083,
+            "min": 12043,
+            "max": 12083
+          },
+          "styleWrites": {
+            "n": 5,
+            "p50": 480,
+            "p75": 480,
+            "p95": 480,
+            "min": 480,
+            "max": 480
+          },
+          "childListRecords": {
+            "n": 5,
+            "p50": 1058,
+            "p75": 1058,
+            "p95": 1058,
+            "min": 1058,
+            "max": 1058
+          },
+          "nodesAdded": {
+            "n": 5,
+            "p50": 1006,
+            "p75": 1006,
+            "p95": 1006,
+            "min": 1006,
+            "max": 1006
+          },
+          "nodesRemoved": {
+            "n": 5,
+            "p50": 56,
+            "p75": 56,
+            "p95": 56,
+            "min": 56,
+            "max": 56
+          },
+          "reactCommits": {
+            "n": 5,
+            "p50": 40,
+            "p75": 40,
+            "p95": 40,
+            "min": 40,
+            "max": 40
+          }
+        },
+        "attack-idle": {
+          "observations": 5,
+          "attributeWrites": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "styleWrites": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "childListRecords": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "nodesAdded": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "nodesRemoved": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "reactCommits": {
+            "n": 5,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "attack-hover-enter": {
+          "observations": 100,
+          "attributeWrites": {
+            "n": 100,
+            "p50": 1212,
+            "p75": 1212,
+            "p95": 1212,
+            "min": 0,
+            "max": 1212
+          },
+          "styleWrites": {
+            "n": 100,
+            "p50": 400,
+            "p75": 400,
+            "p95": 400,
+            "min": 0,
+            "max": 400
+          },
+          "childListRecords": {
+            "n": 100,
+            "p50": 8,
+            "p75": 8,
+            "p95": 8,
+            "min": 0,
+            "max": 8
+          },
+          "nodesAdded": {
+            "n": 100,
+            "p50": 6,
+            "p75": 6,
+            "p95": 6,
+            "min": 0,
+            "max": 6
+          },
+          "nodesRemoved": {
+            "n": 100,
+            "p50": 2,
+            "p75": 2,
+            "p95": 2,
+            "min": 0,
+            "max": 2
+          },
+          "reactCommits": {
+            "n": 100,
+            "p50": 1,
+            "p75": 1,
+            "p95": 1,
+            "min": 1,
+            "max": 1
+          }
+        },
+        "attack-hover-leave": {
+          "observations": 100,
+          "attributeWrites": {
+            "n": 100,
+            "p50": 1198,
+            "p75": 1198,
+            "p95": 1198,
+            "min": 0,
+            "max": 1198
+          },
+          "styleWrites": {
+            "n": 100,
+            "p50": 398,
+            "p75": 398,
+            "p95": 398,
+            "min": 0,
+            "max": 398
+          },
+          "childListRecords": {
+            "n": 100,
+            "p50": 2,
+            "p75": 2,
+            "p95": 2,
+            "min": 0,
+            "max": 2
+          },
+          "nodesAdded": {
+            "n": 100,
+            "p50": 0,
+            "p75": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "nodesRemoved": {
+            "n": 100,
+            "p50": 2,
+            "p75": 2,
+            "p95": 2,
+            "min": 0,
+            "max": 2
+          },
+          "reactCommits": {
+            "n": 100,
+            "p50": 1,
+            "p75": 1,
+            "p95": 1,
+            "min": 0,
+            "max": 1
+          }
+        },
+        "attack-threshold-drag-step": {
+          "observations": 100,
+          "attributeWrites": {
+            "n": 100,
+            "p50": 1046,
+            "p75": 1212,
+            "p95": 1251,
+            "min": 2,
+            "max": 1257
+          },
+          "styleWrites": {
+            "n": 100,
+            "p50": 2,
+            "p75": 10,
+            "p95": 12,
+            "min": 0,
+            "max": 14
+          },
+          "childListRecords": {
+            "n": 100,
+            "p50": 14,
+            "p75": 16,
+            "p95": 18,
+            "min": 0,
+            "max": 20
+          },
+          "nodesAdded": {
+            "n": 100,
+            "p50": 11,
+            "p75": 12,
+            "p95": 13,
+            "min": 0,
+            "max": 14
+          },
+          "nodesRemoved": {
+            "n": 100,
+            "p50": 11,
+            "p75": 12,
+            "p95": 13,
+            "min": 0,
+            "max": 14
+          },
+          "reactCommits": {
+            "n": 100,
+            "p50": 2,
+            "p75": 2,
+            "p95": 2,
+            "min": 0,
+            "max": 2
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "attributeWrites": "MutationObserver attribute records in the whole document during the interaction plus a settle window; setAttribute with an unchanged value still produces a record",
+    "styleWrites": "Subset of attributeWrites where attributeName is style",
+    "childListRecords": "MutationObserver childList records; nodesAdded/nodesRemoved count nodes in those records",
+    "reactCommits": "onCommitFiberRoot calls across all React roots"
+  }
+}

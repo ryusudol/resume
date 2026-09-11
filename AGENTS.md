@@ -9,18 +9,20 @@
 Run commands from the repository root with Tectonic available:
 
 - `brew install tectonic poppler`: install the compiler and PDF inspection tools on macOS.
-- `make` or `make check`: compile every resume listed in `RESUMES` in the Makefile.
+- `make`: compile every resume listed in `RESUMES` in the Makefile.
 - `make swe`: compile the SWE resume.
 
 Override the compiler path through the `TECTONIC` Make variable. Poppler tools remain available for manual PDF inspection. Use Tectonic or XeLaTeX; pdfLaTeX is unsupported.
 
 ## Coding Style & Naming Conventions
 
+Resume PDFs in `resumes/` must use the filename format `Suhyeon_Yu_Company_Role_Resume.pdf`, replacing `Company` and `Role` with the target company and role (for example, `Suhyeon_Yu_Google_SWE_Resume.pdf`).
+
 Match existing formatting: two-space indentation for nested LaTeX content, and tabs for Make recipes. Use lowercase, hyphenated content filenames, such as `abc-fitness-swe.tex`; resume drivers use names such as `Suhyeon_Yu_SWE_Resume.tex`. Keep layout controls in `resumestyle.sty`, avoiding manual spacing in content modules. Confirm commands used by content are defined in the style package. No formatter or linter is configured.
 
 ## Testing Guidelines
 
-There is no dedicated unit-test framework or coverage threshold. After content or layout changes, run `make check` and visually inspect the PDF for overlap, wrapping, and readability. The current draft allows multiple pages. The build checks compilation success. Use Poppler to inspect extracted text when font or encoding settings change. Use Calibri Regular body text with Bold emphasis; keep `XeTeXgenerateactualtext` disabled to avoid documented extraction defects.
+There is no dedicated unit-test framework or coverage threshold. After content or layout changes, run `make` and visually inspect the PDF for overlap, wrapping, and readability. The current draft allows multiple pages. The build checks compilation success. Use Poppler to inspect extracted text when font or encoding settings change. Use Calibri Regular body text with Bold emphasis; keep `XeTeXgenerateactualtext` disabled to avoid documented extraction defects.
 
 ## Commit & Pull Request Guidelines
 
