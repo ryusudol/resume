@@ -12,6 +12,18 @@ Thanks for considering :)
 
 &nbsp;
 
+Hi Patricia,
+
+I’m Suhyeon, MCS at Rice (Dec 2026).
+
+I’m applying to Replit's 2027 new grad SWE role. This summer I worked on a jQuery-to-React rewrite for 1.6M+ users at ABC Fitness.
+
+Happy to share my resume if it fits.
+
+
+
+&nbsp;
+
 Hi [Name],
 
 I'm Suhyeon and am pursuing a Master’s in CS at Rice, graduating this December. [I came across your LinkedIn profile and wanted to ask if you'd be open to referring me.]
