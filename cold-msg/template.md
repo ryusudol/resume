@@ -1,28 +1,32 @@
-Hi [Name],
+## LinkedIn
 
-I’m Suhyeon and am pursuing a Master's in CS at Rice, graduating this December.
+### Engineer
 
-I’m interested in the "Role" position at [Company], and I wanted to ask you if you would be open to referring me.
+Hi Jared,
 
-Happy to share my resume.
+I’m Suhyeon, a Master's in CS at Rice, graduating this December.
 
-Thanks for considering :)
+I’m applying to Miter's SWE (new grad) role and wanted to ask you if you'd be open to referring me.
 
+I've been working on data-intensive (and beautiful) web dev primarily focusing on frontend.
 
+Happy to share my resume :)
 
-&nbsp;
+### Recruiter
 
-Hi Patricia,
+Hi Akash!
 
-I’m Suhyeon, MCS at Rice (Dec 2026).
+I’m Suhyeon, a Master's in CS at Rice, graduating this December. I’m interested in Superhuman's SWE early career role and wanted to talk to you.
 
-I’m applying to Replit's 2027 new grad SWE role. This summer I worked on a jQuery-to-React rewrite for 1.6M+ users at ABC Fitness.
+I've been working on AI explainability and data-intensive (and beautiful :)) web interfaces.
 
 Happy to share my resume if it fits.
 
 
 
 &nbsp;
+
+## Email
 
 Hi [Name],
 
