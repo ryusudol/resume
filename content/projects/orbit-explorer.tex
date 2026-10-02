@@ -1,0 +1,8 @@
+% Editable resume content; LaTeX is the source of truth.
+\resumeProjectLine{\href{https://github.com/ryusudol/orbit-explorer}{\resumeEmphasis{Orbit Explorer}}}{\textit{React, TypeScript, Three.js, Rust, WebAssembly, D3}}
+\begin{itemize}
+  \item \resumeEmphasis{3D Visualization}: Built a browser-based orbital digital twin that renders \resumeEmphasis{19,887} tracked orbital objects at \resumeEmphasis{60 fps} using \resumeEmphasis{Three.js} instancing (WebGPU with a WebGL 2 fallback), with a \resumeEmphasis{React} HUD and \resumeEmphasis{D3} panels for laser-link routing, collision screening, and coverage.
+  \item \resumeEmphasis{Parallel Computation}: Implemented an SGP4 orbit propagator in \resumeEmphasis{Rust/WebAssembly} across 4 \resumeEmphasis{Web Workers} that write keyframes to a SharedArrayBuffer without per-frame messaging, interpolating every position in \resumeEmphasis{0.25 ms} per frame.
+  \item \resumeEmphasis{Performance Optimization}: Accelerated all-pairs collision screening (198M pairs) by \resumeEmphasis{85\ensuremath{\times}} (280 to 3.3 ms) with a spatial hash, and rebuilt an 18,422-link Starlink laser mesh with Dijkstra routing in \resumeEmphasis{3 ms} to compare latency against fiber.
+  \item \resumeEmphasis{Validation \& CI}: Verified the engine against a published reference set (\resumeEmphasis{666/666} states within 0.12 mm) and cross-checked it with satellite.js, running \resumeEmphasis{37} Rust and Vitest tests and daily data snapshots in GitHub Actions.
+\end{itemize}

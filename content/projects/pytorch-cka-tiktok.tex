@@ -1,8 +1,9 @@
 % Editable resume content; LaTeX is the source of truth.
 \resumeProjectLine{\href{https://github.com/ryusudol/Centered-Kernel-Alignment}{\resumeEmphasis{PyTorch-CKA}}}{\textit{Python, PyTorch }}
 \begin{itemize}
-  \item \resumeEmphasis{AI Explainability}: Built an open-source Python library that compares internal representations across layers of \resumeEmphasis{CNNs} and \resumeEmphasis{LLMs}, addressing slow computation and memory buildup in existing CKA tools.
+  \item \resumeEmphasis{AI Explainability}: Built an open-source Python library that compares internal representations across layers of \resumeEmphasis{CNNs} and \resumeEmphasis{LLMs}.
   \item \resumeEmphasis{Performance Optimization}: Reduced HSIC trace complexity from \resumeEmphasis{O(B\textsuperscript{3}) }to\resumeEmphasis{ O(B\textsuperscript{2})} per layer pair (B: batch size) by replacing full matrix multiplication with Frobenius inner products, achieving an overall \resumeEmphasis{8.1\ensuremath{\times}} speedup over torch-cka on an RTX PRO 6000 Blackwell GPU.
   \item \resumeEmphasis{Memory Optimization}: Implemented automatic activation cleanup and forward-hook removal after CKA computation, reducing retained GPU memory by \resumeEmphasis{95.7\%} compared to torch-cka (ResNet-18, batch size 1,000).
+  \item \resumeEmphasis{Built-in Visualization}: Added plotting APIs that render CKA results as customizable \resumeEmphasis{heatmaps} and layer-wise trend line charts.
   \item \resumeEmphasis{Deployment \& Maintenance}: Published on PyPI (\resumeEmphasis{\textasciitilde{}400 monthly downloads}) and automated CI testing across Python 3.10\textendash{}3.14.
 \end{itemize}
