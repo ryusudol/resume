@@ -1,0 +1,13 @@
+% Editable resume content; LaTeX is the source of truth.
+% Precisely variant: same bullets as abc-fitness-swe-handshake.tex, reordered so
+% AI-assisted development, testing, and reviewable delivery come first.
+\resumeTitleRow{\resumeEmphasis{Software Engineering Intern}}{Jun. 2026 \textendash{} Aug. 2026}
+\resumeRow{\textit{ABC Fitness}}{Austin, TX, USA}
+\begin{itemize}
+  \item \resumeEmphasis{Frontend Modernization}: Rebuilt the user profile page of ABC Trainerize (\resumeEmphasis{400,000+ fitness professionals}, \resumeEmphasis{1.6M+ clients}) from jQuery to \resumeEmphasis{React}, redesigning it beyond the migration scope into card-based sections with modal editing, at \resumeEmphasis{\textasciitilde1.5 s LCP and zero layout shift}.
+  \item \resumeEmphasis{AI-Assisted Development}: Accelerated development by orchestrating multiple AI agents to build profile sections in parallel in separate \resumeEmphasis{Git worktrees} and streamlined the development workflow using \resumeEmphasis{Figma MCP} and team-shared agent skills.
+  \item \resumeEmphasis{Unit Testing}: Wrote \resumeEmphasis{Jest} unit tests covering role-based access control, conditional rendering, and concurrent upload/update requests, achieving \resumeEmphasis{97\% branch coverage} of profile business logic.
+  \item \resumeEmphasis{Incremental Delivery}: Decomposed the profile rewrite into independently reviewable \resumeEmphasis{stacked PRs} and used a \resumeEmphasis{LaunchDarkly} feature flag for gradual rollout.
+  \item \resumeEmphasis{Async Data Loading \& Caching}: Built \resumeEmphasis{RxJS} pipelines that fetch profile data in parallel (\resumeEmphasis{median \textasciitilde230 ms}), serve cached data and photos on return visits (\resumeEmphasis{\textasciitilde220 ms}, \resumeEmphasis{2.4\ensuremath{\times}} faster than uncached) while refreshing in the background, and defer video streaming until playback.
+  \item \resumeEmphasis{Feature Development}: Built a \resumeEmphasis{keyboard-operable drag-and-drop} certification editor from Figma designs with search and A--Z sorting, working with a UX designer and QA analyst, so trainers can feature their top credentials.
+\end{itemize}

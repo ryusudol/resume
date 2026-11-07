@@ -1,0 +1,14 @@
+% Editable resume content; LaTeX is the source of truth.
+% Verkada variant: same facts as abc-fitness-swe.tex / cv.md, reordered so concurrency,
+% caching, testing, and incremental delivery come first for a backend role. The async
+% bullet keeps cv.md's full wording (stale responses, overlapping saves and uploads).
+\resumeTitleRow{\resumeEmphasis{Software Engineering Intern}}{Jun. 2026 \textendash{} Aug. 2026}
+\resumeRow{\textit{ABC Fitness}}{Austin, TX, USA}
+\begin{itemize}
+  \item \resumeEmphasis{Frontend Modernization}: Rebuilt the user profile page of ABC Trainerize (\resumeEmphasis{400,000+ fitness professionals}, \resumeEmphasis{1.6M+ clients}) from jQuery to \resumeEmphasis{React}, redesigning it beyond the migration scope into card-based sections with modal editing, at \resumeEmphasis{\textasciitilde1.5 s LCP and zero layout shift}.
+  \item \resumeEmphasis{Async Data Loading}: Built \resumeEmphasis{RxJS} pipelines that fetch profile, analytics, and photo data in parallel (\resumeEmphasis{median \textasciitilde230 ms}), drop stale responses, block overlapping saves and uploads, and defer intro-video streaming until playback.
+  \item \resumeEmphasis{Client-Side Caching}: Served cached profile data and photos on return visits, rendering the full page in \resumeEmphasis{\textasciitilde220 ms} (\resumeEmphasis{2.4\ensuremath{\times}} faster than uncached) with no loading state or photo re-downloads while refreshing in the background.
+  \item \resumeEmphasis{Unit Testing}: Wrote \resumeEmphasis{Jest} unit tests covering role-based access control, conditional rendering, and concurrent upload/update requests, achieving \resumeEmphasis{97\% branch coverage} of profile business logic.
+  \item \resumeEmphasis{Incremental Delivery}: Decomposed the profile rewrite into independently reviewable \resumeEmphasis{stacked PRs} and used a \resumeEmphasis{LaunchDarkly} feature flag for gradual rollout.
+  \item \resumeEmphasis{AI-Assisted Development}: Accelerated development by orchestrating multiple AI agents to build profile sections in parallel in separate \resumeEmphasis{Git worktrees} and streamlined the development workflow using \resumeEmphasis{Figma MCP} and team-shared agent skills.
+\end{itemize}

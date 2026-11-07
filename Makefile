@@ -4,11 +4,13 @@ RESUME_DIR := resumes
 TEX := $(wildcard $(RESUME_DIR)/*.tex)
 PDFS := $(TEX:.tex=.pdf)
 
-.PHONY: build swe frontend clean FORCE
+.PHONY: build swe swe-rice amazon-sde frontend clean FORCE
 
 build: $(PDFS)
 swe: $(RESUME_DIR)/Suhyeon_Yu_SWE_Resume.pdf
+swe-rice: $(RESUME_DIR)/Suhyeon_Yu_SWE_Rice_Resume.pdf
 frontend: $(RESUME_DIR)/Suhyeon_Yu_Frontend_Resume.pdf
+amazon-sde: $(RESUME_DIR)/Suhyeon_Yu_Amazon_SDE_Resume.pdf
 
 # Always compile so edits under content/ are picked up.
 # -Z search-path=. resolves resumestyle.sty and content/ from the repo root.

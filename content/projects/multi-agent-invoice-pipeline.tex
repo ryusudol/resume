@@ -1,0 +1,8 @@
+% Editable resume content; LaTeX is the source of truth.
+\resumeProjectLine{\href{https://github.com/ryusudol/multi-agent-invoice-pipeline}{\resumeEmphasis{Multi-Agent Invoice Pipeline}}}{\textit{Python, Pydantic AI, FastAPI, SQLite, React, TypeScript}}
+\begin{itemize}
+  \item \resumeEmphasis{Multi-Agent Orchestration}: Built a \resumeEmphasis{Pydantic AI} system where \resumeEmphasis{4} Grok agents (intake, validation, VP, critic) process invoices in \resumeEmphasis{5} formats via a typed state machine that checkpoints each stage to \resumeEmphasis{SQLite}, so runs paused for review resume from the CLI or dashboard.
+  \item \resumeEmphasis{Deterministic Guardrails}: Kept arithmetic, stock, pricing, and approval rules in code with veto power over the agents, re-prompting extraction on any value absent from the source and escalating invoices over \resumeEmphasis{\$10K} after \resumeEmphasis{3} VP--critic rounds without agreement.
+  \item \resumeEmphasis{Duplicate-Safe Payments}: Identified invoices by a \resumeEmphasis{SHA-256} fingerprint of normalized content rather than the file, catching all \resumeEmphasis{3} resubmissions sent in a different format, and made payments idempotent so a revised invoice pays only the unpaid difference.
+  \item \resumeEmphasis{Testing \& Dashboard}: Wrote \resumeEmphasis{114} offline tests replaying recorded agent outputs and \resumeEmphasis{22} live Grok tests, matching the expected outcome for all \resumeEmphasis{20} sample invoices in \resumeEmphasis{3/3} runs, and built a \resumeEmphasis{FastAPI}/\resumeEmphasis{React} dashboard for live progress, approvals, and audit trails.
+\end{itemize}
